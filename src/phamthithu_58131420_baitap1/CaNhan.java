@@ -23,6 +23,9 @@ public class CaNhan
         this.sdt = sdt;
     }
 
+    public CaNhan() {
+    }
+    
    
 
     public String getHoTen() {
@@ -56,6 +59,12 @@ public class CaNhan
     public void setSdt(String sdt) {
         this.sdt = sdt;
     }
-    
+    public String HienThiTT()
+    {
+         return "ten"+getHoTen()+"\n"
+               +"tuoi"+getTuoi()+"\n"
+               +"diachi"+getDiaChi()+"\n"
+               +"sdt"+getSdt()+"\n";
+    }
     
 }

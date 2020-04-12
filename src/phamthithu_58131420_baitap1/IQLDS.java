@@ -9,6 +9,10 @@ package phamthithu_58131420_baitap1;
  *
  * @author phamthu
  */
-public interface IQLDS {
+public interface IQLDS 
+{
+    int them(CaNhan p);
+    int xoa(String ten);
+    void inDS();
     
 }

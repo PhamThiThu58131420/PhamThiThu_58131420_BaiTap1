@@ -5,10 +5,32 @@
  */
 package phamthithu_58131420_baitap1;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author phamthu
  */
-public class QLDS {
-    
+public class QLDS implements IQLDS
+{
+    ArrayList<CaNhan> caNhan =  new ArrayList();    
+
+    @Override
+    public int them(CaNhan p) 
+    {
+         caNhan.add(p);
+        return caNhan.size();
+    }
+
+    @Override
+    public int xoa(String ten) 
+    {
+
+    }
+
+    @Override
+    public void inDS() 
+    {
+        
+    }
 }

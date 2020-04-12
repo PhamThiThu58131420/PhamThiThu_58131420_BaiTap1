@@ -9,11 +9,15 @@ package phamthithu_58131420_baitap1;
  *
  * @author phamthu
  */
-public class HocSinh 
+public class HocSinh extends CaNhan
 {
     String lop;
     String nangKhieu;
 
+    public HocSinh() {
+    }
+
+    
     public HocSinh(String lop, String nangKhieu) {
         this.lop = lop;
         this.nangKhieu = nangKhieu;
@@ -33,6 +37,11 @@ public class HocSinh
 
     public void setNangKhieu(String nangKhieu) {
         this.nangKhieu = nangKhieu;
+    }
+
+    @Override
+    public String HienThiTT() {
+        return super.HienThiTT();
     }
     
     

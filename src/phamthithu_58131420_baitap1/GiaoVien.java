@@ -9,11 +9,15 @@ package phamthithu_58131420_baitap1;
  *
  * @author phamthu
  */
-public class GiaoVien 
+public class GiaoVien extends CaNhan
 {
     String monDay;
     String toBoMon;
 
+    public GiaoVien() {
+    }
+
+    
     public GiaoVien(String monDay, String toBoMon) {
         this.monDay = monDay;
         this.toBoMon = toBoMon;
@@ -34,6 +38,10 @@ public class GiaoVien
     public void setToBoMon(String toBoMon) {
         this.toBoMon = toBoMon;
     }
-    
+
+    @Override
+    public String HienThiTT() {
+        return super.HienThiTT(); 
+    }
     
 }
