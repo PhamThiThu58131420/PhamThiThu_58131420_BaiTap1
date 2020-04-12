@@ -25,7 +25,7 @@ public class QLDS implements IQLDS
     @Override
     public int xoa(String ten) 
     {
-
+        return ten;
     }
 
     @Override
