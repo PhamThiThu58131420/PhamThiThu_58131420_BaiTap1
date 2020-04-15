@@ -61,10 +61,10 @@ public class CaNhan
     }
     public String HienThiTT()
     {
-         return "ten"+getHoTen()+"\n"
-               +"tuoi"+getTuoi()+"\n"
-               +"diachi"+getDiaChi()+"\n"
-               +"sdt"+getSdt()+"\n";
+         return "Tên : "+getHoTen()+"\n"
+               +"Tuổi :"+getTuoi()+"\n"
+               +"Địa chỉ :"+getDiaChi()+"\n"
+               +"sdt : "+getSdt()+"\n";
     }
     
 }

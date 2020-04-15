@@ -17,8 +17,8 @@ public class GiaoVien extends CaNhan
     public GiaoVien() {
     }
 
-    
-    public GiaoVien(String monDay, String toBoMon) {
+    public GiaoVien(String monDay, String toBoMon, String hoTen, int tuoi, String diaChi, String sdt) {
+        super(hoTen, tuoi, diaChi, sdt);
         this.monDay = monDay;
         this.toBoMon = toBoMon;
     }
@@ -41,7 +41,9 @@ public class GiaoVien extends CaNhan
 
     @Override
     public String HienThiTT() {
-        return super.HienThiTT(); 
+        return super.HienThiTT(); //To change body of generated methods, choose Tools | Templates.
     }
     
+    
+   
 }

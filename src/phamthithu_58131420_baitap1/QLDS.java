@@ -25,12 +25,22 @@ public class QLDS implements IQLDS
     @Override
     public int xoa(String ten) 
     {
-        return ten;
+        for(int i= 0; i<caNhan.size(); i++)
+        {
+            if(caNhan.get(i).getHoTen().equals(ten))
+            {
+                caNhan.remove(i);
+            } 
+        }
+        return caNhan.size();
     }
 
     @Override
     public void inDS() 
     {
-        
+         for(int i=0; i<caNhan.size();i++)
+        {
+            System.out.println("DANH SÁCH "+ caNhan.get(i).HienThiTT());
+        }
     }
 }

@@ -17,8 +17,8 @@ public class HocSinh extends CaNhan
     public HocSinh() {
     }
 
-    
-    public HocSinh(String lop, String nangKhieu) {
+    public HocSinh(String lop, String nangKhieu, String hoTen, int tuoi, String diaChi, String sdt) {
+        super(hoTen, tuoi, diaChi, sdt);
         this.lop = lop;
         this.nangKhieu = nangKhieu;
     }
@@ -41,9 +41,9 @@ public class HocSinh extends CaNhan
 
     @Override
     public String HienThiTT() {
-        return super.HienThiTT();
+        return super.HienThiTT(); //To change body of generated methods, choose Tools | Templates.
     }
     
-    
+   
     
 }
